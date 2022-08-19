@@ -3,7 +3,6 @@ import chalk from 'chalk';
 import readline from 'readline-sync';
 
 
-
 let i =0, continuar = "S", historias =[];
 
 while (continuar=="S") {
@@ -22,4 +21,3 @@ historias.push(i)
 historias.forEach(element => { console.log(element)
     
 });
-
